@@ -14,15 +14,21 @@ body {
 .container__head {
     font-size: 27px;
     text-align: center;
+    color: #fff;
+    font-weight: 900;
+}
+
+.head__span {
+    background: #ff8e0c;
 }
 
 .table {
     margin: 0px auto;
 }
 
-.table_head {
+.table__head {
     position: sticky;
-    top: 5px;
+    top: 1px;
 }
 
 .table__head_style {
@@ -84,6 +90,12 @@ body {
     font-size: 15px;
 }
 
+.todo__input:nth-child(2) {
+    border: 2px solid #f4dbbe;
+    font-size: 15px;
+    width: 520px;
+}
+
 .todo__select {
     border: 2px solid #f4dbbe;
     padding: 1px;
@@ -95,4 +107,30 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 15px;
+}
+
+#add-success {
+    color: green;
+    font-weight: 600;
+}
+
+#add-error {
+    color: red;
+    font-weight: 600;
+}
+
+.table__field_edit {
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.tasks__not {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600px;
+    margin-top: 30px;
 }
